@@ -10,8 +10,7 @@ words = {
 
 w = {}
 
-for _ in words do
-  pp _ 
+for _ in words.keys do
   for k in _ do
     w[k] = words[_]
   end
