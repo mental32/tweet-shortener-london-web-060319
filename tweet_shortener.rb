@@ -1,7 +1,7 @@
 WORDS = Hash[ *{
     ['hello'] => 'hi',
     ['to', 'two', 'too'] => '2',
-    ['for', 'four'] => '4',
+    ['For', 'for', 'four'] => '4',
     ['be'] => 'b',
     ['you'] => 'u',
     ['at'] => '@',
