@@ -16,7 +16,7 @@ for _ in words do
   end
 end
 
-w = words
+words = -
 
 pp words
 
