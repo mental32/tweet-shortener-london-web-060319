@@ -1,1 +1,1 @@
-# Write your code here.
+shortened_tweet_truncator
