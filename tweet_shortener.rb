@@ -23,9 +23,9 @@ pp words
 def word_substituter(s)
 
   for substr in s.split do
-    if linear.include? substr
-      for t in words do
-        if t.include?
+    # if linear.include? substr
+    #   for t in words do
+    #     if t.include?
   end
 end
 
