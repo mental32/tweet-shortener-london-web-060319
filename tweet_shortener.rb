@@ -8,7 +8,7 @@ words = {
   ['and'] => '&'
 }
 
-words = Hash[ *words.keys.flatten.collect { |k| [ words.find {} ] } ]
+words = Hash[ *words.keys.flatten.collect { |k| [ words. ] } ]
 
 def word_substituter(s)
 
