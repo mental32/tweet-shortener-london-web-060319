@@ -6,7 +6,7 @@ words = Hash[ *{
     ['you'] => 'u',
     ['at'] => '@',
     ['and'] => '&'
-  }.map { |k, v| k.map { |i| [i, v] } }.flatten ]
+  }.map { |k, v| k.map { |i| [i, v] } }.flatten
 ]
 
 def word_substituter(s)
