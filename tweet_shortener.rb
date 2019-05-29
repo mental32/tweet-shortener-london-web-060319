@@ -17,6 +17,8 @@ def word_substituter(s)
   s
 end
 
+word_substituter 
+
 def bulk_tweet_shortener(array)
   array.each { |s| puts word_substituter s }
 end
