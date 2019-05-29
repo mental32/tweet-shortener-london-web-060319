@@ -1,3 +1,7 @@
+words = {
+  
+}
+
 def word_substituter(s)
   
 end
