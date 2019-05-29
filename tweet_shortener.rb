@@ -9,8 +9,6 @@ WORDS = Hash[ *{
   }.map { |k, v| k.map { |i| [i, v] } }.flatten
 ]
 
-pp words
-
 def word_substituter(s)
   for key, value in WORDS do
     s.gsub! target, value
