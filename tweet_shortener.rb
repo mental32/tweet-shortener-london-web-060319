@@ -16,7 +16,7 @@ words = Hash[ *words.map { |k, v| k.map { |i| [i, v] } }.flatten ]
 #   end
 # end
 
-words = w
+# words = w
 
 pp words
 
