@@ -8,13 +8,13 @@ words = {
   ['and'] => '&'
 }
 
-w = {}
+words = Hash[ *words.map { |k, v| k.map { |i| [i, v] } }.flatten ]
 
-for _ in words.keys do
-  for k in _ do
-    w[k] = words[_]
-  end
-end
+# for _ in words.keys do
+#   for k in _ do
+#     w[k] = words[_]
+#   end
+# end
 
 words = w
 
