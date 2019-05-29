@@ -32,4 +32,3 @@ end
 def shortened_tweet_truncator(s)
   word_substituter(s).truncate(140)
 end
-
