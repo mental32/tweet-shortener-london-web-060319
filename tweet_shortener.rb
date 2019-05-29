@@ -8,7 +8,15 @@ words = {
   ['and'] => '&'
 }
 
-require 'pp'
+w = {}
+
+for _ in words do
+  for k in _ do
+    w[k] = words[_]
+  end
+end
+
+w = words
 
 pp words
 
@@ -16,6 +24,8 @@ def word_substituter(s)
 
   for substr in s.split do
     if linear.include? substr
+      for t in words do
+        if t.include?
   end
 end
 
