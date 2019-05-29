@@ -15,7 +15,7 @@ pp words
 def word_substituter(s)
 
   for substr in s.split do
-    # if linear.include? substr
+    if linear.include? substr
   end
 end
 
