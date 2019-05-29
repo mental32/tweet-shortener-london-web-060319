@@ -18,8 +18,7 @@ def word_substituter(s)
 
   for substr in s.split do
     if linear.include? substr
-      
-
+  end
 end
 
 def bulk_tweet_shortener(array)
