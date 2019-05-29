@@ -21,6 +21,12 @@ def bulk_tweet_shortener(array)
   array.each { |s| puts word_substituter(s) }
 end
 
-def selective_tweet_shortener()
+def selective_tweet_shortener(s)
+  if s.length > 140
+    word_substituter s
+  else
+    s
+  end
+end
 
 # shortened_tweet_truncator
