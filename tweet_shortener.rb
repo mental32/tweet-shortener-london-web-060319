@@ -12,7 +12,7 @@ linear = words.keys.flatten
 
 def word_substituter(s)
 
-  
+    
 
 end
 
