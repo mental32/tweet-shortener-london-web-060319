@@ -10,6 +10,8 @@ WORDS = Hash[ *{
 ]
 
 def word_substituter(s)
+  s = s.downcase
+
   for key, value in WORDS do
     s.gsub! key, value
   end
