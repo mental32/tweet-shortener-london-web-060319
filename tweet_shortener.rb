@@ -11,6 +11,7 @@ words = {
 w = {}
 
 for _ in words do
+  pp _ 
   for k in _ do
     w[k] = words[_]
   end
