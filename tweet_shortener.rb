@@ -1,15 +1,13 @@
-words = {
-  ['hello'] => 'hi',
-  ['to', 'two', 'too'] => '2',
-  ['for', 'four'] => '4',
-  ['be'] => 'b',
-  ['you'] => 'u',
-  ['at'] => '@',
-  ['and'] => '&'
-}
-
-words = Hash[ *words.map { |k, v| k.map { |i| [i, v] } }.flatten ]
-
+words = Hash[ *{
+    ['hello'] => 'hi',
+    ['to', 'two', 'too'] => '2',
+    ['for', 'four'] => '4',
+    ['be'] => 'b',
+    ['you'] => 'u',
+    ['at'] => '@',
+    ['and'] => '&'
+  }.map { |k, v| k.map { |i| [i, v] } }.flatten ]
+]
 
 def word_substituter(s)
 
