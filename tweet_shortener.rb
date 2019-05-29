@@ -8,8 +8,12 @@ words = {
   ['and'] => '&'
 }
 
+linear = words.keys
+
 def word_substituter(s)
+
   
+
 end
 
 def bulk_tweet_shortener(array)
