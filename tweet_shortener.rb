@@ -8,11 +8,13 @@ words = {
   ['and'] => '&'
 }
 
-linear = words.keys.flatten
+words = Hash[ *words.keys.flatten.collect { |k| [ words.find {} ] } ]
 
 def word_substituter(s)
 
-    
+  for substr in s.split do
+    if linear.include? substr
+      
 
 end
 
