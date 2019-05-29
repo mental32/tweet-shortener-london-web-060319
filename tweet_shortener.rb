@@ -10,9 +10,11 @@ words = Hash[ *{
 ]
 
 def word_substituter(s)
-  for substr in s.split do
-    
+  for key, value in words do
+    s.gsub! target, value
   end
+
+  s
 end
 
 def bulk_tweet_shortener(array)
