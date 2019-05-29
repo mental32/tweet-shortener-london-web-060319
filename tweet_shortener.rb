@@ -9,6 +9,10 @@ words = Hash[ *{
   }.map { |k, v| k.map { |i| [i, v] } }.flatten
 ]
 
+require 'pp'
+
+pp words
+
 def word_substituter(s)
 
   for substr in s.split do
