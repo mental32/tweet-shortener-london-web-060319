@@ -1,4 +1,4 @@
-words = Hash[ *{
+WORDS = Hash[ *{
     ['hello'] => 'hi',
     ['to', 'two', 'too'] => '2',
     ['for', 'four'] => '4',
