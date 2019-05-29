@@ -1,4 +1,6 @@
-word_substituter
+def word_substituter(s)
+  
+end
 
 selective_tweet_shortener
 
