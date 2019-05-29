@@ -8,9 +8,11 @@ words = {
   ['and'] => '&'
 }
 
-words = Hash[ *words.keys.flatten.collect { |k| [ words.keys.select { |a| a.include? k } ] } ]
+words = Hash[ *words.keys.flatten.collect { |k| [ k, words.keys.select { |a| a.include? k } ] } ]
 
 require 'pp'
+
+pp words
 
 def word_substituter(s)
 
