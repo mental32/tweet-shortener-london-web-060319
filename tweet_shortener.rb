@@ -11,7 +11,7 @@ WORDS = Hash[ *{
 
 def word_substituter(s)
   for key, value in WORDS do
-    s.gsub! target, value
+    s.gsub! key, value
   end
 
   s
